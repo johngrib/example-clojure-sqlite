@@ -1,7 +1,11 @@
 {:paths ["src"]
- :deps {org.clojure/clojure    {:mvn/version "1.11.1"} ; Stable Release 2022-04-05
+ :deps {; step01
+        org.clojure/clojure    {:mvn/version "1.11.1"} ; Stable Release 2022-04-05
         org.clojure/java.jdbc  {:mvn/version "0.7.12"} ; 2021-02-02
         org.xerial/sqlite-jdbc {:mvn/version "3.39.4.0"} ; 2022-11-07
+
+        ; step02
+        com.github.seancorfield/honeysql {:mvn/version "2.4.947"} ; 2022-11-06
         ;;
         }
  :aliases   {}
