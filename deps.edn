@@ -1,0 +1,9 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure    {:mvn/version "1.11.1"} ; Stable Release 2022-04-05
+        org.clojure/java.jdbc  {:mvn/version "0.7.12"} ; 2021-02-02
+        org.xerial/sqlite-jdbc {:mvn/version "3.39.4.0"} ; 2022-11-07
+        ;;
+        }
+ :aliases   {}
+ :mvn/repos {"central" {:url "https://repo1.maven.org/maven2/"}
+             "clojars" {:url "https://clojars.org/repo"}}}
